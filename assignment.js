@@ -26,7 +26,7 @@ function budgetCalculator(watch, phone, laptop) {
         return "Items can not be floating number.";
     }
 
-    var budget = watchPrice*watch + phonePrice*phone + laptopPrice*laptop;      //calculating total budget
+    var budget = watchPrice*watch + phonePrice*phone + laptopPrice*laptop;             //calculating total budget
     return budget;
 }
 
@@ -69,11 +69,3 @@ function megaFriend(friendArray) {
     }
     return mega;
 }
-
-
-
-
-
-
-
-
